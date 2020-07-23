@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAdamo Porfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link href="https://pagecdn.io/lib/easyfonts/fonts.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper cyan darken-1">
+          <div class="container">
+            <img class="navImg" src="./assets/images/RobotRon.jpg" />
+            <a href="index.html" class="brand-logo topBar jeffreyAdamo"
+              >Jeffrey Adamo</a
+            >
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+              ><i class="material-icons fas fa-bars"></i
+            ></a>
+            <!-- <ul id="nav-mobile" class="right hide-on-med-and-down"> -->
+            <ul class="right hide-on-med-and-down">
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="aboutme.html">About</a></li>
+            </ul>
+
+            <ul class="sidenav" id="mobile-demo">
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="aboutme.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div>
+              <h4>My Porfolio</h4>
+            </div>
+            
+            <div>
+              <h5>Here are a few projects created while attending <a href="https://bootcamp.uw.edu/coding/">UW's Full Stack Coding BootCamp</a></h5>
+              <br>Click pics for details...
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          
+          <!-- PROJECT 2 CARD - TravEx -->
+          <div class="col s12 m12 l6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./assets/images/travEx.png" />
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"
+                    >Group Project 2: TravEx!
+                    <!-- Modal Button -->
+                    <i class="material-icons right">
+                        <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal5">Demo</a>
+                    </i>
+                    </span>
+                    <a
+                    href="https://travexproject.herokuapp.com/"
+                    >Website hosted by Heroku
+                    </a><br>
+                    <!-- <a
+                    href="#"
+                    >GitHub Pages Readme
+                    </a><br> -->
+                    <a
+                    href="https://github.com/jeffreyadamo/Group-Project-2-TravEx"
+                    >GitHub Repository
+                    </a>
+                    <p>
+                    TravEx app utilizes OpenMapTrips API to query travel destinations. Data can be saved in MySQL database for user to reference upon sign in using Local, Facebook, Github, or Google strategies with Passport.js
+                    </p>
+                    <!-- modal -->
+                    <div id="modal5" class="modal">
+                    <div class="modal-content">
+                        <img class="activator img-responsive" src="./assets/images/travExDemo.gif" style="height:auto; width:100%"/>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                    </div>
+                </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"
+                    >TravEx<i
+                        class="material-icons right"
+                        >close</i
+                    ></span
+                    >
+                    <p>TravEx app utilizes OpenMapTrips API to query travel destinations. Data can be saved in MySQL database for user to reference upon sign in using Local, Facebook, Github, or Google strategies with Passport.js.
+                    </p>
+                    <p>Project Highlights:</p>
+                    <ul class="browser-default">
+                        <li>Designed with <a href="https://get.foundation/">Zurb Foundation</a> CSS framework</li>
+                        <li>Node.js and MySQL database server</li>
+                        <li>Heroku JawsDB MySQL hosted web server</li>
+                        <li>Express.js</li>
+                        <li>Handlebars.js HTML rendering</li>
+                        <li>Sequelize ORM</li>
+                        <li>Lint.js, TravisCI cleanup techniques</li>
+                        <li>Passport.js login</li>
+                        
+                    </ul>
+
+                    
+                </div>
+            </div>
+          </div>
+          <!-- END OF PROJECT 2 CARD  -->
+
+          <!-- EAT DA BURGER CARD -->
+          <div class="col s12 m12 l6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./assets/images/burgerHome.png" />
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"
+                    >Eat Da Burger!
+                    <!-- Modal Button -->
+                    <i class="material-icons right">
+                        <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal2">Demo</a>
+                    </i>
+                    </span>
+                    <a
+                    href="https://ancient-cove-71755.herokuapp.com/"
+                    >Website hosted by Heroku
+                    </a><br>
+                    <a
+                    href="https://github.com/jeffreyadamo/EatDaBurger"
+                    >GitHub Repository
+                    </a>
+                    <p>
+                    Burger logger app showcasing CREATE, READ, and UPDATE actions on a MySQL database using Model-View-Controller design. 
+                    </p>
+                    <!-- modal -->
+                    <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <img class="activator img-responsive" src="./assets/images/burgerDemo.gif" style="height:auto; width:100%"/>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                    </div>
+                </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"
+                    >Eat Da Burger!<i
+                        class="material-icons right"
+                        >close</i
+                    ></span
+                    >
+                    <p>Burger logger application allows the user to use query a database of burgers and update its status by either selecting "DEVOUR!" or "PREP FOR EATING". The user can add a new burger to the database as well.
+                    </p>
+                    <p>Project Highlights:</p>
+                    <ul class="browser-default">
+                        <li>Designed with <a href="https://materializecss.com/">Materialize</a> CSS framework</li>
+                        <li>Node.js and MySQL localhost database server</li>
+                        <li>Heroku JawsDB MySQL hosted web server</li>
+                        <li>Express.js</li>
+                        <li>Handlebars.js HTML rendering</li>
+                        <li>ORM</li>
+
+                    </ul>
+
+                    
+                </div>
+            </div>
+          </div>
+          <!-- END OF EAT DA BURGER -->
+
+          <!-- PANDEMIC PANTRY CARD -->
+            <div class="col s12 m12 l6">
+                <div class="card large">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/PandemicPantry.png" />
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"
+                        >Group Project 1: Pandemic Pantry
+                        <!-- Modal Button -->
+                        <i class="material-icons right">
+                            <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal3">Demo</a>
+                        </i>
+                        </span>
+                        <a
+                        href="https://jeffreyadamo.github.io/GroupProject1-PandemicPantry/"
+                        >GitHub Pages
+                        </a><br>
+                        <a
+                        href="https://github.com/jeffreyadamo/GroupProject1-PandemicPantry"
+                        >GitHub Repository
+                        </a>
+                        <p>
+                        Recipe search application utilizing AJAX calls to Spoontacular and WikiMedia APIs. First use of GitHub to collaborate in a group
+                        of 3.
+                        </p>
+                        <!-- modal -->
+                        <div id="modal3" class="modal">
+                        <div class="modal-content">
+                            <img class="activator img-responsive" src="./assets/images/pandemicPantry.gif" style="height:auto; width:100%"/>
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Back of Card -->
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4"
+                        >Group Project: <br />Pandemic Pantry<i
+                            class="material-icons right"
+                            >close</i
+                        ></span
+                        >
+                        <p>Recipe application that allows users to search for recipes based on an ingredient they have at home. Results can be tailored to fit dietary preferences and intolerances.<br> Utilizes GitHub to collaborate with Alyssa Hellrung and Bipin Maharjan</p>
+                        <ul class="browser-default">
+                            <li>Designed with <a href="https://get.foundation/index.html">ZURB
+                            Foundation</a> CSS framework</li>
+                            <li>Required AJAX calls to 2 server-side APIs
+                            (<a href="https://spoonacular.com/food-api/docs">Spoonacular</a> and <a href="https://www.mediawiki.org/wiki/API:Main_page">MediaWIKI</a>
+                           )</li>
+                            
+                            <li>Uses <a href="https://pagecdn.com/lib/easyfonts">EasyFonts</a> third-party API</li>
+                        </ul>
+
+                        
+                    </div>
+                </div>
+            </div>
+          <!-- END OF PANDEMIC PANTRY CARD -->
+
+          <!-- EmployeeTracker CARD -->
+          <div class="col s12 m12 l6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./assets/images/employeeTracker.png" />
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"
+                    >Employee Tracker CLI (feat. inquirer)
+                    <!-- Modal Button -->
+                    <i class="material-icons right">
+                        <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal4">Demo</a>
+                    </i>
+                    </span>
+                    <a
+                    href="https://github.com/jeffreyadamo/EmployeeTracker_MySQL"
+                    >GitHub Repository
+                    </a>
+                    <p>
+                    Employee Tracker is a content managament system (CMS) application that uses the command line interface (CLI) to navigate through a MySQL database with employee information. The user has the several CRUD options available through the app to CREATE, READ, UPDATE, and DELETE employee information.
+                    </p>
+                    <!-- modal -->
+                    <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <img class="activator img-responsive" src="./assets/images/employeeTrackerDemo.gif" style="height:auto; width:100%"/>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                    </div>
+                </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"
+                    >Employee Tracker CLI<i
+                        class="material-icons right"
+                        >close</i
+                    ></span
+                    >
+                    <p>Employee Tracker uses the command line interface (CLI) to navigate through a local MySQL database with employee information. The user has the several CRUD options available to to view and manage the departments, roles, and employees in a company.
+                    </p>
+                    <p>Project Highlights:</p>
+                    <ul class="browser-default">
+                        <li>MySQL database CRUD</li>
+                        <li>Node.js local server</li>
+                        <li>Inquirer npm package</li>
+                        <li>console.table for clean viewing</li>
+                        <li>.sql seed files for MySQL tables and data setup</li>
+                       
+                    </ul>
+
+                    
+                </div>
+            </div>
+          </div>
+          <!-- END OF EmployeeTracker CARD  -->
+
+          <!-- WEATHER DASHBOARD CARD -->
+          <div class="col s12 m12 l6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/images/weatherDashboard.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                  >Weather Dashboard
+                  <!-- Modal Button -->
+                  <i class="material-icons right">
+                      <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal5">Demo</a>
+                  </i>
+                  </span>
+                  <a
+                  href="https://jeffreyadamo.github.io/06_Weather_Dashboard/"
+                  >GitHub Pages
+                  </a><br>
+                  <a
+                  href="https://github.com/jeffreyadamo/06_Weather_Dashboard"
+                  >GitHub Repository
+                  </a>
+                  <p>
+                  Search city for current and forecasted weather information that utilizes OpenWeatherMap API and local storage 
+                  </p>
+                  <!-- modal -->
+                  <div id="modal5" class="modal">
+                  <div class="modal-content">
+                      <img class="activator img-responsive" src="./assets/images/weatherDashboard.gif" style="height:auto; width:100%"/>
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                  </div>
+              </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                    >Weather Dashboard<i class="material-icons right"
+                    >close</i
+                    ></span
+                >
+                <p>
+                    Utilizes the third-party API, OpenWeather API to build a
+                    weather dashboard to retrive weather data for cities. The
+                    dashboard will run in the browser and feature dynamically
+                    updated HTML and CSS
+                </p>
+                <p>
+                  <ul class="browser-default">
+                    <li>Designed with <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">BootstrapCDN</a> CSS framework</li>
+                    <li>Search button initiates local storage save and retrieve data using JavaScript</li>
+                    <li>3 APIs from OpenWeatherAPI used to call current weather, UV Index, and forecast weather</li>
+                  </ul>
+                </p>
+                </div>
+            </div>
+          </div>
+          <!-- END OF WEATHER DASHBOARD CARD -->
+
+          <!-- WORK DAY SCHEDULER CARD -->
+          <div class="col s12 m12 l6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/images/workDay.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                  >Work Day Scheduler
+                  <!-- Modal Button -->
+                  <i class="material-icons right">
+                      <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal6">Demo</a>
+                  </i>
+                  </span>
+                  <a
+                  href="https://jeffreyadamo.github.io/05_3rdPartyAPIs_WorkDayScheduler/"
+                  >GitHub Pages
+                  </a><br>
+                  <a
+                  href="https://github.com/jeffreyadamo/05_3rdPartyAPIs_WorkDayScheduler"
+                  >GitHub Repository
+                  </a>
+                  <p>
+                  Set and save tasks during time blocks using the browser's Local Storage and Moment.js API to display current time
+                  </p>
+                <!-- modal -->
+                <div id="modal6" class="modal">
+                  <div class="modal-content">
+                      <img class="activator img-responsive" src="./assets/images/WorkDay2.gif" style="height:auto; width:100%"/>
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                  </div>
+                </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                    >Work Day Scheduler<i class="material-icons right"
+                    >close</i
+                    ></span
+                >
+                <p>
+                    A functional work day schedule application that
+                    provides the user with the current time, an area to take notes at
+                    each time hour of the day, and have each time block's color
+                    represent its time relative to the current time. 
+                </p>
+                <p>
+                  <ul class="browser-default">
+                    <li>Designed with <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">BootstrapCDN</a> CSS framework</li>
+                    <li>Times provided by third-party API - <a href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">Moment.js</a></li>
+                    <li>HTML was dynamically updated using JQuery to dislay time blocks</li>
+                    <li>JavaScript enables local storage to save tasks upon revist to the site</li>
+                  </ul>
+                </p>
+                </div>
+            </div>
+          </div>
+      </div>
+    <!-- END OF WORK DAY SCHEDULER CARD -->
+
+    </main>
+
+    <footer class="page-footer cyan darken-1">
+      <div class="footer-copyright center">
+        <div class="container">
+          © 2020 Copyright
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/98e3b11589.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./assets/JS/script.js"></script>
+  </body>
+</html>
