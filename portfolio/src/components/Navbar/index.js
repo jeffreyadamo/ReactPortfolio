@@ -1,9 +1,22 @@
 import React from "react";
-import "./style.css";
+import "../../index.css";
 import RobotRon from "../../utils/images/RobotRon.jpg"
+import M from "materialize-css/dist/js/materialize.min.js";
 
-function Navbar() {
-    return(
+class Navbar extends React.Component {
+
+    componentDidMount() {
+        let sidenav = document.querySelector('.sidenav');
+        M.Sidenav.init(sidenav, {});
+        // document.addEventListener('DOMContentLoaded', function() {
+        //     var elems = document.querySelectorAll('.sidenav');
+        //     var instances = M.Sidenav.init(elems, options);
+        //   });
+        };
+    
+
+    render (){
+        return(
         <nav>
         <div className="nav-wrapper cyan darken-1">
           <div className="container">
@@ -27,7 +40,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    );
+    )};
 }
 
 export default Navbar;
