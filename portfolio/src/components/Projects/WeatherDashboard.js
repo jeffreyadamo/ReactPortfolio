@@ -8,7 +8,11 @@ function WeatherDashboard() {
     <div className="col s12 m12 l6">
       <div className="card large">
         <div className="card-image waves-effect waves-block waves-light">
-          <img alt="weather dashboard" className="activator" src={weatherDashboard} />
+          <img
+            alt="weather dashboard"
+            className="activator"
+            src={weatherDashboard}
+          />
         </div>
         <div className="card-content">
           <span className="card-title activator grey-text text-darken-4">
@@ -23,11 +27,19 @@ function WeatherDashboard() {
               </a>
             </i>
           </span>
-          <a href="https://jeffreyadamo.github.io/06_Weather_Dashboard/">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://jeffreyadamo.github.io/06_Weather_Dashboard/"
+          >
             GitHub Pages
           </a>
           <br />
-          <a href="https://github.com/jeffreyadamo/06_Weather_Dashboard">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/jeffreyadamo/06_Weather_Dashboard"
+          >
             GitHub Repository
           </a>
           <p>
@@ -37,7 +49,11 @@ function WeatherDashboard() {
           {/* <!-- modal --> */}
           <div id="modal5" className="modal">
             <div className="modal-content">
-              <img alt="weather dashboard demo" className="activator img-responsive mod" src={weatherDemo} />
+              <img
+                alt="weather dashboard demo"
+                className="activator img-responsive mod"
+                src={weatherDemo}
+              />
               <a
                 href="#!"
                 className="modal-close waves-effect waves-green btn-flat"
@@ -61,7 +77,11 @@ function WeatherDashboard() {
             <ul className="browser-default">
               <li>
                 Designed with{" "}
-                <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://getbootstrap.com/docs/4.4/getting-started/introduction/"
+                >
                   BootstrapCDN
                 </a>{" "}
                 CSS framework

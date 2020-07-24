@@ -16,6 +16,8 @@ function WorkDayScheduler() {
             {/* <!-- Modal Button --> */}
             <i className="material-icons right">
               <a
+                rel="noopener noreferrer"
+                target="_blank"
                 className="waves-effect waves-light btn modal-trigger cyan darken-1"
                 href="#modal6"
               >
@@ -23,11 +25,19 @@ function WorkDayScheduler() {
               </a>
             </i>
           </span>
-          <a href="https://jeffreyadamo.github.io/05_3rdPartyAPIs_WorkDayScheduler/">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://jeffreyadamo.github.io/05_3rdPartyAPIs_WorkDayScheduler/"
+          >
             GitHub Pages
           </a>
           <br />
-          <a href="https://github.com/jeffreyadamo/05_3rdPartyAPIs_WorkDayScheduler">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/jeffreyadamo/05_3rdPartyAPIs_WorkDayScheduler"
+          >
             GitHub Repository
           </a>
           <p>
@@ -37,7 +47,11 @@ function WorkDayScheduler() {
           {/* <!-- modal --> */}
           <div id="modal6" className="modal">
             <div className="modal-content">
-              <img alt="work day scheduler demo" className="activator img-responsive mod" src={workDayDemo} />
+              <img
+                alt="work day scheduler demo"
+                className="activator img-responsive mod"
+                src={workDayDemo}
+              />
               <a
                 href="#!"
                 className="modal-close waves-effect waves-green btn-flat"
@@ -62,14 +76,22 @@ function WorkDayScheduler() {
             <ul className="browser-default">
               <li>
                 Designed with{" "}
-                <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://getbootstrap.com/docs/4.4/getting-started/introduction/"
+                >
                   BootstrapCDN
                 </a>{" "}
                 CSS framework
               </li>
               <li>
                 Times provided by third-party API -{" "}
-                <a href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+                >
                   Moment.js
                 </a>
               </li>

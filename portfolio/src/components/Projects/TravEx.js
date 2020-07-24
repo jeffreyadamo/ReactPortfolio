@@ -24,11 +24,19 @@ function TravEx() {
               </a>
             </i>
           </span>
-          <a href="https://travexproject.herokuapp.com/">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://travexproject.herokuapp.com/"
+          >
             Website hosted by Heroku
           </a>
           <br />
-          <a href="https://github.com/jeffreyadamo/Group-Project-2-TravEx">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/jeffreyadamo/Group-Project-2-TravEx"
+          >
             GitHub Repository
           </a>
           <p>
@@ -69,8 +77,14 @@ function TravEx() {
           <ul className="browser-default">
             <li>
               Designed with{" "}
-              <a href="https://get.foundation/">Zurb Foundation</a> CSS
-              framework
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://get.foundation/"
+              >
+                Zurb Foundation
+              </a>{" "}
+              CSS framework
             </li>
             <li>Node.js and MySQL database server</li>
             <li>Heroku JawsDB MySQL hosted web server</li>

@@ -8,7 +8,11 @@ function EatDaBurger() {
     <div className="col s12 m12 l6">
       <div className="card large">
         <div className="card-image waves-effect waves-block waves-light">
-          <img alt="Pandemic Pantry" className="activator" src={PandemicPantry} />
+          <img
+            alt="Pandemic Pantry"
+            className="activator"
+            src={PandemicPantry}
+          />
         </div>
         <div className="card-content">
           <span className="card-title activator grey-text text-darken-4">
@@ -23,11 +27,19 @@ function EatDaBurger() {
               </a>
             </i>
           </span>
-          <a href="https://jeffreyadamo.github.io/GroupProject1-PandemicPantry/">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://jeffreyadamo.github.io/GroupProject1-PandemicPantry/"
+          >
             GitHub Pages
           </a>
           <br />
-          <a href="https://github.com/jeffreyadamo/GroupProject1-PandemicPantry">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/jeffreyadamo/GroupProject1-PandemicPantry"
+          >
             GitHub Repository
           </a>
           <p>
@@ -37,7 +49,11 @@ function EatDaBurger() {
           {/* <!-- modal --> */}
           <div id="modal3" className="modal">
             <div className="modal-content">
-              <img alt="Pandemic Pantry Demo" className="activator img-responsive mod" src={PandemicDemo} />
+              <img
+                alt="Pandemic Pantry Demo"
+                className="activator img-responsive mod"
+                src={PandemicDemo}
+              />
               <a
                 href="#!"
                 className="modal-close waves-effect waves-green btn-flat"
@@ -63,21 +79,44 @@ function EatDaBurger() {
           <ul className="browser-default">
             <li>
               Designed with{" "}
-              <a href="https://get.foundation/index.html">ZURB Foundation</a>{" "}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://get.foundation/index.html"
+              >
+                ZURB Foundation
+              </a>{" "}
               CSS framework
             </li>
             <li>
               Required AJAX calls to 2 server-side APIs (
-              <a href="https://spoonacular.com/food-api/docs">Spoonacular</a>{" "}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://spoonacular.com/food-api/docs"
+              >
+                Spoonacular
+              </a>{" "}
               and{" "}
-              <a href="https://www.mediawiki.org/wiki/API:Main_page">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://www.mediawiki.org/wiki/API:Main_page"
+              >
                 MediaWIKI
               </a>
               )
             </li>
 
             <li>
-              Uses <a href="https://pagecdn.com/lib/easyfonts">EasyFonts</a>{" "}
+              Uses{" "}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://pagecdn.com/lib/easyfonts"
+              >
+                EasyFonts
+              </a>{" "}
               third-party API
             </li>
           </ul>
