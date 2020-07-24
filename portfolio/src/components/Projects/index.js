@@ -1,6 +1,12 @@
 import React from "react";
 import "../../index.css";
 import TravEx from "./TravEx";
+import EatDaBurger from "./EatDaBurger";
+import EmployeeDirectory from "./EmployeeDirectory";
+import EmployeeTracker from "./EmployeeTracker";
+import PandemicPantry from "./PandemicPantry";
+import WeatherDashboard from "./WeatherDashboard";
+import WorkDayScheduler from "./WorkDayScheduler";
 
 function Projects() {
 
@@ -21,6 +27,12 @@ function Projects() {
             </div>
             <div className="row">
                 <TravEx />
+                <PandemicPantry />
+                <EatDaBurger />
+                <EmployeeDirectory />
+                <EmployeeTracker />
+                <WeatherDashboard />
+                <WorkDayScheduler />
             </div>
         </div>
     )
