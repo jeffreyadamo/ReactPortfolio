@@ -1,0 +1,32 @@
+.container{
+    width: 90%;
+  }
+
+.navImg{
+    height: 50px;
+    width: 45px;
+    margin-top: 7px;
+}
+
+@media only screen and (max-width: 448px) {
+    .jeffreyAdamo {
+      font-size: 20px !important;
+    }
+    .navImg{
+        margin-top: 3px;
+    }
+    .aboutText{
+        font-size: 14px;
+        width: 90%;
+      }
+    .port2{
+        font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navImg{
+        margin-top: 3px;
+    }
+
+}

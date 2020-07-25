@@ -1,0 +1,97 @@
+.topBar{
+  margin-left: 30px;
+}
+
+.orange{
+  color:#dc552c;
+}
+.black{
+  color:#262525;
+}
+.teal{
+  color:#84f2d6;
+}
+.periwinkle{
+  color:#bde4f4;
+}
+.tan{
+  color:#fff6da;
+}
+
+body {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  background-image: url(./utils/images/full-bloom.png);
+  padding-bottom: 20px;
+}
+
+.navImg{
+    height: 50px;
+    width: 45px;
+    margin-top: 7px;
+}
+
+.container{
+  width: 90%;
+}
+
+.hi {
+  margin-top:0
+}
+
+.bioInfo{
+  font-weight: bold;
+}
+
+.aboutText{
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.whiteness{
+  color:#fff;
+}
+
+
+li{
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 448px) {
+  .jeffreyAdamo {
+    font-size: 20px !important;
+  }
+  .navImg{
+      margin-top: 3px;
+  }
+  .aboutText{
+    font-size: 14px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navImg{
+      margin-top: 3px;
+  }
+  .modal .modal-content{
+      padding: 0px;
+  }
+  #modal1{
+      width: 100%;
+  }
+  #modal2{
+      width: 100%;
+  }
+  #modal3{
+      width: 100%;
+  }
+}
