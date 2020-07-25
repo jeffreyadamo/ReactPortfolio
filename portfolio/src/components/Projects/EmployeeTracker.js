@@ -2,8 +2,10 @@ import React from "react";
 import "../../index.css";
 import employeeTracker from "../../utils/images/employeeTracker.png";
 import employeeDemo from "../../utils/images/employeeTrackerDemo.gif";
+import { Modal, Button } from 'react-materialize';
 
 function EatDaBurger() {
+  const trigger = <Button>Demo</Button>;
   return (
     <div className="col s12 m12 l6">
       <div className="card large">
@@ -19,14 +21,13 @@ function EatDaBurger() {
             Employee Tracker CLI (feat. inquirer)
             {/* <!-- Modal Button --> */}
             <i className="material-icons right">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                className="waves-effect waves-light btn modal-trigger cyan darken-1"
-                href="#modal4"
-              >
-                Demo
-              </a>
+            <Modal trigger={trigger}>
+              <img
+                alt="modal"
+                className="activator img-responsive mod"
+                src={employeeDemo}
+              />
+            </Modal>
             </i>
           </span>
           <a
@@ -43,22 +44,6 @@ function EatDaBurger() {
             CRUD options available through the app to CREATE, READ, UPDATE, and
             DELETE employee information.
           </p>
-          {/* <!-- modal --> */}
-          <div id="modal4" className="modal">
-            <div className="modal-content">
-              <img
-                alt="emplyee tracker demo"
-                className="activator img-responsive mod"
-                src={employeeDemo}
-              />
-              <a
-                href="#!"
-                className="modal-close waves-effect waves-green btn-flat"
-              >
-                Close
-              </a>
-            </div>
-          </div>
         </div>
         {/* <!-- Back of Card --> */}
         <div className="card-reveal">

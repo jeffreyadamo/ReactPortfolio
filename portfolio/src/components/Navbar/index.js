@@ -3,9 +3,10 @@ import "../../index.css";
 import RobotRon from "../../utils/images/RobotRon.jpg";
 import M from "materialize-css/dist/js/materialize.min.js";
 
+
 class Navbar extends React.Component {
   componentDidMount() {
-    let sidenav = document.querySelector("#mobile-demo");
+    let sidenav = document.querySelector("#slide-out");
     M.Sidenav.init(sidenav, {});
     // document.addEventListener('DOMContentLoaded', function() {
     //     var elems = document.querySelectorAll('.sidenav');
@@ -15,6 +16,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
+      <div className="App">
       <nav>
         <div className="nav-wrapper cyan darken-1">
           <div className="container">
@@ -22,9 +24,9 @@ class Navbar extends React.Component {
             <a href="/" className="brand-logo topBar jeffreyAdamo">
               Jeffrey Adamo
             </a>
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+            {/* <a href="#" data-target="slide-out" className="sidenav-trigger">
               <i className="material-icons fas fa-bars"></i>
-            </a>
+            </a> */}
             <ul className="right hide-on-med-and-down">
               <li>
                 <a href="projects">Portfolio</a>
@@ -36,21 +38,25 @@ class Navbar extends React.Component {
                 <a href="about">About</a>
               </li>
             </ul>
-
-            <ul className="sidenav" id="mobile-demo">
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+      <ul className="sidenav" id="slide-out">
               <li>
-                <a href="portfolio.html">Portfolio</a>
+                <a href="projects">Portfolio</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact">Contact</a>
               </li>
               <li>
-                <a href="aboutme.html">About</a>
+                <a href="about">About</a>
               </li>
             </ul>
           </div>
+          
         </div>
+
       </nav>
+     
+      </div>
     );
   }
 }

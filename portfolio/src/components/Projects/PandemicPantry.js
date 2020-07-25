@@ -2,8 +2,10 @@ import React from "react";
 import "../../index.css";
 import PandemicPantry from "../../utils/images/PandemicPantry.png";
 import PandemicDemo from "../../utils/images/pandemicPantry.gif";
+import { Modal, Button } from 'react-materialize';
 
 function EatDaBurger() {
+  const trigger = <Button>Demo</Button>;
   return (
     <div className="col s12 m12 l6">
       <div className="card large">
@@ -19,12 +21,13 @@ function EatDaBurger() {
             Group Project 1: Pandemic Pantry
             {/* <!-- Modal Button --> */}
             <i className="material-icons right">
-              <a
-                className="waves-effect waves-light btn modal-trigger cyan darken-1"
-                href="#modal3"
-              >
-                Demo
-              </a>
+            <Modal trigger={trigger}>
+              <img
+                alt="modal"
+                className="activator img-responsive mod"
+                src={PandemicDemo}
+              />
+            </Modal>
             </i>
           </span>
           <a
@@ -46,22 +49,6 @@ function EatDaBurger() {
             Recipe search application utilizing AJAX calls to Spoontacular and
             WikiMedia APIs. First use of GitHub to collaborate in a group of 3.
           </p>
-          {/* <!-- modal --> */}
-          <div id="modal3" className="modal">
-            <div className="modal-content">
-              <img
-                alt="Pandemic Pantry Demo"
-                className="activator img-responsive mod"
-                src={PandemicDemo}
-              />
-              <a
-                href="#!"
-                className="modal-close waves-effect waves-green btn-flat"
-              >
-                Close
-              </a>
-            </div>
-          </div>
         </div>
         {/* <!-- Back of Card --> */}
         <div className="card-reveal">

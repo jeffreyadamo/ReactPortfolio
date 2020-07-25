@@ -2,8 +2,10 @@ import React from "react";
 import "../../index.css";
 import weatherDashboard from "../../utils/images/weatherDashboard.png";
 import weatherDemo from "../../utils/images/weatherDashboard.gif";
+import { Modal, Button } from 'react-materialize';
 
 function WeatherDashboard() {
+  const trigger = <Button>Demo</Button>;
   return (
     <div className="col s12 m12 l6">
       <div className="card large">
@@ -19,12 +21,13 @@ function WeatherDashboard() {
             Weather Dashboard
             {/* <!-- Modal Button --> */}
             <i className="material-icons right">
-              <a
-                className="waves-effect waves-light btn modal-trigger cyan darken-1"
-                href="#modal5"
-              >
-                Demo
-              </a>
+            <Modal trigger={trigger}>
+              <img 
+                alt="modal"
+                className="activator img-responsive mod"
+                src={weatherDemo}
+              />
+            </Modal>
             </i>
           </span>
           <a
@@ -46,22 +49,6 @@ function WeatherDashboard() {
             Search city for current and forecasted weather information that
             utilizes OpenWeatherMap API and local storage
           </p>
-          {/* <!-- modal --> */}
-          <div id="modal5" className="modal">
-            <div className="modal-content">
-              <img
-                alt="weather dashboard demo"
-                className="activator img-responsive mod"
-                src={weatherDemo}
-              />
-              <a
-                href="#!"
-                className="modal-close waves-effect waves-green btn-flat"
-              >
-                Close
-              </a>
-            </div>
-          </div>
         </div>
         {/* <!-- Back of Card --> */}
         <div className="card-reveal">

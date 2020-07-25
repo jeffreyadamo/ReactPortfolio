@@ -3,8 +3,10 @@ import "../../index.css";
 import "./style.css";
 import burgerHome from "../../utils/images/burgerHome.png";
 import burgerDemo from "../../utils/images/burgerDemo.gif";
+import { Modal, Button } from 'react-materialize';
 
 function EatDaBurger() {
+  const trigger = <Button>Demo</Button>;
   return (
     <div className="col s12 m12 l6">
       <div className="card large">
@@ -16,12 +18,13 @@ function EatDaBurger() {
             Eat Da Burger!
             {/* <!-- Modal Button --> */}
             <i className="material-icons right">
-              <a
-                className="waves-effect waves-light btn modal-trigger cyan darken-1"
-                href="#modal2"
-              >
-                Demo
-              </a>
+              <Modal trigger={trigger}>
+                <img
+                  alt="modal"
+                  className="activator img-responsive mod"
+                  src={burgerDemo}
+                />
+              </Modal>
             </i>
           </span>
           <a
@@ -43,22 +46,6 @@ function EatDaBurger() {
             Burger logger app showcasing CREATE, READ, and UPDATE actions on a
             MySQL database using Model-View-Controller design.
           </p>
-          {/* <!-- modal --> */}
-          <div id="modal2" className="modal">
-            <div className="modal-content">
-              <img
-                alt="modal"
-                className="activator img-responsive mod"
-                src={burgerDemo}
-              />
-              <a
-                href="#!"
-                className="modal-close waves-effect waves-green btn-flat"
-              >
-                Close
-              </a>
-            </div>
-          </div>
         </div>
         {/* <!-- Back of Card --> */}
         <div className="card-reveal">

@@ -2,8 +2,11 @@ import React from "react";
 import "../../index.css";
 import workDay from "../../utils/images/workDay.png";
 import workDayDemo from "../../utils/images/WorkDay2.gif";
+import { Modal, Button } from 'react-materialize';
 
 function WorkDayScheduler() {
+  const trigger = <Button>Demo</Button>;
+
   return (
     <div className="col s12 m12 l6">
       <div className="card large">
@@ -15,14 +18,13 @@ function WorkDayScheduler() {
             Work Day Scheduler
             {/* <!-- Modal Button --> */}
             <i className="material-icons right">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                className="waves-effect waves-light btn modal-trigger cyan darken-1"
-                href="#modal6"
-              >
-                Demo
-              </a>
+            <Modal trigger={trigger}>
+              <img
+                alt="modal"
+                className="activator img-responsive mod"
+                src={workDayDemo}
+              />
+            </Modal>
             </i>
           </span>
           <a
@@ -44,22 +46,6 @@ function WorkDayScheduler() {
             Set and save tasks during time blocks using the browser's Local
             Storage and Moment.js API to display current time
           </p>
-          {/* <!-- modal --> */}
-          <div id="modal6" className="modal">
-            <div className="modal-content">
-              <img
-                alt="work day scheduler demo"
-                className="activator img-responsive mod"
-                src={workDayDemo}
-              />
-              <a
-                href="#!"
-                className="modal-close waves-effect waves-green btn-flat"
-              >
-                Close
-              </a>
-            </div>
-          </div>
         </div>
         {/* <!-- Back of Card --> */}
         <div className="card-reveal">

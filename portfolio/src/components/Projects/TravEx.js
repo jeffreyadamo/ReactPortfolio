@@ -3,8 +3,11 @@ import "../../index.css";
 import "./style.css";
 import travEx from "../../utils/images/travEx.png";
 import travExDemo from "../../utils/images/travExDemo.gif";
+import { Modal, Button } from 'react-materialize';
 
 function TravEx() {
+  const trigger = <Button>Demo</Button>;
+
   return (
     <div className="col s12 m12 l6">
       <div className="card large">
@@ -16,12 +19,13 @@ function TravEx() {
             Group Project 2: TravEx!
             {/* <!-- Modal Button --> */}
             <i className="material-icons right">
-              <a
-                className="waves-effect waves-light btn modal-trigger cyan darken-1"
-                href="#modal5"
-              >
-                Demo
-              </a>
+            <Modal trigger={trigger}>
+              <img
+                alt="modal"
+                className="activator img-responsive mod"
+                src={travExDemo}
+              />
+            </Modal>
             </i>
           </span>
           <a
@@ -45,22 +49,6 @@ function TravEx() {
             in using Local, Facebook, Github, or Google strategies with
             Passport.js
           </p>
-          {/* <!-- modal --> */}
-          <div id="modal5" className="modal">
-            <div className="modal-content">
-              <img
-                alt="modal"
-                className="activator img-responsive mod"
-                src={travExDemo}
-              />
-              <a
-                href="#!"
-                className="modal-close waves-effect waves-green btn-flat"
-              >
-                Close
-              </a>
-            </div>
-          </div>
         </div>
         {/* <!-- Back of Card --> */}
         <div className="card-reveal">
