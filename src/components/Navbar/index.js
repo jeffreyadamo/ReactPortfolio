@@ -17,7 +17,7 @@ class Navbar extends React.Component {
             <div className="container">
               <img alt="Robot logo" className="navImg" src={RobotRon} />
               <a href="/ReactPortfolio/" className="brand-logo topBar jeffreyAdamo">
-                Jeffrey Adamo
+                Jeffrey B. Adamo 
               </a>
               <ul className="right hide-on-med-and-down">
                 <li>
