@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.a7f0df9e.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.a6fa393d.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.a6fa393d.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.59104830.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.adc6427e.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.adc6427e.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ad87311a.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ad87311a.js.map",
-    "static/js/2.750d6f9b.chunk.js": "/ReactPortfolio/static/js/2.750d6f9b.chunk.js",
-    "static/js/2.750d6f9b.chunk.js.map": "/ReactPortfolio/static/js/2.750d6f9b.chunk.js.map",
+    "static/js/2.aa39f4ee.chunk.js": "/ReactPortfolio/static/js/2.aa39f4ee.chunk.js",
+    "static/js/2.aa39f4ee.chunk.js.map": "/ReactPortfolio/static/js/2.aa39f4ee.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.741cbc184b2929572d26c02218b468bf.js": "/ReactPortfolio/precache-manifest.741cbc184b2929572d26c02218b468bf.js",
+    "precache-manifest.539df75306784c99b6ac1c5f42869070.js": "/ReactPortfolio/precache-manifest.539df75306784c99b6ac1c5f42869070.js",
     "service-worker.js": "/ReactPortfolio/service-worker.js",
-    "static/css/main.a7f0df9e.chunk.css.map": "/ReactPortfolio/static/css/main.a7f0df9e.chunk.css.map",
-    "static/js/2.750d6f9b.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.750d6f9b.chunk.js.LICENSE.txt",
+    "static/css/main.59104830.chunk.css.map": "/ReactPortfolio/static/css/main.59104830.chunk.css.map",
+    "static/js/2.aa39f4ee.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.aa39f4ee.chunk.js.LICENSE.txt",
     "static/media/PandemicPantry.png": "/ReactPortfolio/static/media/PandemicPantry.c33b36cc.png",
     "static/media/WorkDay2.gif": "/ReactPortfolio/static/media/WorkDay2.0e2412ac.gif",
     "static/media/bioImage.JPG": "/ReactPortfolio/static/media/bioImage.e834c2dc.JPG",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ad87311a.js",
-    "static/js/2.750d6f9b.chunk.js",
-    "static/css/main.a7f0df9e.chunk.css",
-    "static/js/main.a6fa393d.chunk.js"
+    "static/js/2.aa39f4ee.chunk.js",
+    "static/css/main.59104830.chunk.css",
+    "static/js/main.adc6427e.chunk.js"
   ]
 }
