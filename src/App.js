@@ -16,14 +16,14 @@ function App() {
       <Router>
       <Navbar />
       <main> 
-      <Route exact path="/ReactPortfolio/" >
-          <HomeBody />
-          <Welcome />
-          </Route>
+        <Route exact path="/ReactPortfolio/" >
+            <HomeBody />
+            <Welcome />
+        </Route>
         <Route exact path="/ReactPortfolio/about" >
           <HomeBody />
           <About />
-          </Route>
+        </Route>
         <Route exact path="/ReactPortfolio/projects" component = {Projects} />  
         <Route exact path="/ReactPortfolio/contact">
           <HomeBody />
