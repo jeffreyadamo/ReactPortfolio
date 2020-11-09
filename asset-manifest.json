@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.c307d49c.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.adc6427e.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.adc6427e.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ad87311a.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ad87311a.js.map",
+    "static/js/2.aa39f4ee.chunk.js": "/ReactPortfolio/static/js/2.aa39f4ee.chunk.js",
+    "static/js/2.aa39f4ee.chunk.js.map": "/ReactPortfolio/static/js/2.aa39f4ee.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "precache-manifest.6278117905590ca6e187a146facbbbb9.js": "/ReactPortfolio/precache-manifest.6278117905590ca6e187a146facbbbb9.js",
+    "service-worker.js": "/ReactPortfolio/service-worker.js",
+    "static/css/main.c307d49c.chunk.css.map": "/ReactPortfolio/static/css/main.c307d49c.chunk.css.map",
+    "static/js/2.aa39f4ee.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.aa39f4ee.chunk.js.LICENSE.txt",
+    "static/media/PandemicPantry.png": "/ReactPortfolio/static/media/PandemicPantry.c33b36cc.png",
+    "static/media/WorkDay2.gif": "/ReactPortfolio/static/media/WorkDay2.0e2412ac.gif",
+    "static/media/bioImage.JPG": "/ReactPortfolio/static/media/bioImage.e834c2dc.JPG",
+    "static/media/burgerDemo.gif": "/ReactPortfolio/static/media/burgerDemo.445ed0cd.gif",
+    "static/media/burgerHome.png": "/ReactPortfolio/static/media/burgerHome.349d4c9f.png",
+    "static/media/employeeTracker.png": "/ReactPortfolio/static/media/employeeTracker.9d399fcb.png",
+    "static/media/employeeTrackerDemo.gif": "/ReactPortfolio/static/media/employeeTrackerDemo.66cc5ad5.gif",
+    "static/media/index.css": "/ReactPortfolio/static/media/full-bloom.c614347a.png",
+    "static/media/gmail_logo_PNG5.png": "/ReactPortfolio/static/media/gmail_logo_PNG5.e1edf6e4.png",
+    "static/media/pandemicPantry.gif": "/ReactPortfolio/static/media/pandemicPantry.139b1d88.gif",
+    "static/media/travEx.png": "/ReactPortfolio/static/media/travEx.ff749590.png",
+    "static/media/travExDemo.gif": "/ReactPortfolio/static/media/travExDemo.9364b9fa.gif",
+    "static/media/weatherDashboard.png": "/ReactPortfolio/static/media/weatherDashboard.53395747.png",
+    "static/media/weatherDashboard.gif": "/ReactPortfolio/static/media/weatherDashboard.8035939c.gif",
+    "static/media/workDay.png": "/ReactPortfolio/static/media/workDay.7e6b424d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad87311a.js",
+    "static/js/2.aa39f4ee.chunk.js",
+    "static/css/main.c307d49c.chunk.css",
+    "static/js/main.adc6427e.chunk.js"
+  ]
+}
